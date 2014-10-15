@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9DDAE99F19EEE01E001FED49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDAE99E19EEE01E001FED49 /* AppDelegate.swift */; };
-		9DDAE9A119EEE01E001FED49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDAE9A019EEE01E001FED49 /* ViewController.swift */; };
+		9D699E7D19EF095100A78536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDAE99E19EEE01E001FED49 /* AppDelegate.swift */; };
+		9DDAE9A119EEE01E001FED49 /* LecturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDAE9A019EEE01E001FED49 /* LecturesViewController.swift */; };
 		9DDAE9A419EEE01E001FED49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDAE9A219EEE01E001FED49 /* Main.storyboard */; };
 		9DDAE9A619EEE01E001FED49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DDAE9A519EEE01E001FED49 /* Images.xcassets */; };
 		9DDAE9A919EEE01E001FED49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DDAE9A719EEE01E001FED49 /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		9DDAE99919EEE01E001FED49 /* MUWeekly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MUWeekly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDAE99D19EEE01E001FED49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DDAE99E19EEE01E001FED49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DDAE9A019EEE01E001FED49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DDAE9A019EEE01E001FED49 /* LecturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturesViewController.swift; sourceTree = "<group>"; };
 		9DDAE9A319EEE01E001FED49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DDAE9A519EEE01E001FED49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9DDAE9A819EEE01E001FED49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				9DDAE99E19EEE01E001FED49 /* AppDelegate.swift */,
-				9DDAE9A019EEE01E001FED49 /* ViewController.swift */,
+				9DDAE9A019EEE01E001FED49 /* LecturesViewController.swift */,
 				9DDAE9A219EEE01E001FED49 /* Main.storyboard */,
 				9DDAE9A519EEE01E001FED49 /* Images.xcassets */,
 				9DDAE9A719EEE01E001FED49 /* LaunchScreen.xib */,
@@ -212,8 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DDAE9A119EEE01E001FED49 /* ViewController.swift in Sources */,
-				9DDAE99F19EEE01E001FED49 /* AppDelegate.swift in Sources */,
+				9D699E7D19EF095100A78536 /* AppDelegate.swift in Sources */,
+				9DDAE9A119EEE01E001FED49 /* LecturesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +405,7 @@
 				9DDAE9BA19EEE01E001FED49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DDAE9BB19EEE01E001FED49 /* Build configuration list for PBXNativeTarget "MUWeeklyTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				9DDAE9BD19EEE01E001FED49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
